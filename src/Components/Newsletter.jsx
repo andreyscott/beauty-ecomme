@@ -6,7 +6,6 @@ const Container = styled.div`
 display: flex;
 justify-content: space-between;
 align-items:center;
-background-color:#5d54c44d;
 padding:1rem 5rem;
 box-shadow: 0px -12px 12px -7px rgba(199,199,199,0.32);
 -webkit-box-shadow: 0px -12px 12px -7px rgba(199,199,199,0.32);

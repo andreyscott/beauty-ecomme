@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 height: 30px;
-background-color: #5d54c4;
+background-color: teal;
 color: white;
 display: flex;
 align-items: center;
@@ -13,7 +13,7 @@ font-weight: 500;
 `
 
 const Announcement = () => {
-    return <Container>Super Deal! - 20% off your first order</Container>
+    return <Container>Super Deal on Website! - 50% off your first order</Container>
 }
 
 export default Announcement

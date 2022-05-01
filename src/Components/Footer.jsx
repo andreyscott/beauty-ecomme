@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, LinkedIn, Twitter, YouTube } from '@material-ui/icons';
+import { Facebook, Instagram, LinkedIn, Twitter, YouTube, GitHub } from '@material-ui/icons';
 import {SM,XS} from "../responsive" 
 
 
@@ -109,21 +109,22 @@ const Footer = () => {
                        
   
                         <SocialIcons>
-                        <Link to='/' className="social-icon-link"> 
-                     <Facebook className="social-icon" />
-                     </Link>
-                     <Link to='/' className="social-icon-link">
+                        {/* link to my github profile */}
+                        <a href="https://github.com/andreyscott">
+                        <GitHub/>
+                        </a>
+                     <a href='https://www.instagram.com/itsandreydev'  className="social-icon-link">
                      <Instagram className="social-icon"/>
-                     </Link>
-                     <Link to='/' className="social-icon-link">
+                     </a>
+                     <a href='https://twitter.com/andreyscott5' className="social-icon-link">
                      <Twitter className="social-icon" />
-                     </Link>
+                     </a>
                      <Link to='/' className="social-icon-link">
                      <YouTube className="social-icon" />
                      </Link>
-                     <Link to='/' className="social-icon-link">
+                     <a href='https://www.linkedin.com/in/andrew-irorere' className="social-icon-link">
                      <LinkedIn className="social-icon" />
-                     </Link>
+                     </a>
 
                         </SocialIcons>
                   
@@ -138,7 +139,6 @@ const Footer = () => {
                 <Link to='/'>How it works?</Link>
                 <Link to='/'>Features</Link>
                 <Link to='/'>News and Blog</Link>
-                <Link to='/'>Why ”Jewel Beauty” ?</Link>
                 
                 </LinkItems>
 
@@ -147,7 +147,6 @@ const Footer = () => {
                 <Link to='/'>How it works?</Link>
                 <Link to='/'>Features</Link>
                 <Link to='/'>News and Blog</Link>
-                <Link to='/'>Why ”Jewel Beauty” ?</Link>
                 
                 </LinkItems>
 
@@ -156,7 +155,7 @@ const Footer = () => {
                 <Link to='/'>How it works?</Link>
                 <Link to='/'>Features</Link>
                 <Link to='/'>News and Blog</Link>
-                <Link to='/'>Why ”Jewel Beauty” ?</Link>
+                
                 
                 </LinkItems>
 
@@ -170,7 +169,7 @@ const Footer = () => {
 
            
             </Wrapper>
-            <small>jewel-beauty.com © 2021. All rights reserved</small>
+            <small> <a href='andrescott.vercel.app'>Andreyscott © 2022 </a> </small>
   
         </Container>
     );
